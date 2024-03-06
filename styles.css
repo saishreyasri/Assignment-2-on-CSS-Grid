@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.gallery {
+    display: grid;
+    background-color: black;
+    grid-template-columns: repeat(3, 400px); 
+    gap: 20px; 
+    padding: 20px;
+}
+.item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+.item img{
+    max-width: 100%;
+    height: auto;
+}
+#Image4{
+    width: 1000px;
+    height: 300px;
+}
+#Image5{
+    width: 1000px;
+    height: 300px;
+}
+#Image6{
+    width: 1000px;
+    height: 300px;
+}
